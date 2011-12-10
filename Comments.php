@@ -7,18 +7,12 @@
  * @author		Juan "JayCreations" Hernandez
  * @license		MIT
  * @copyright		2011 Juan J. Hernandez
- * @link
+ * @link		https://github.com/JayCreations/XSS-Example
  */
 
-// Set the timezone.
-date_default_timezone_set('America/New_York');
-// We need some errors.
-ini_set('display_errors', 1);
-// Report these.
-error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE | E_STRICT);
-// Before we call something else lets define this so the files know where we are coming form.
-define('XSS', 1);
-require_once(dirname(__FILE__) . '/Database.php');
+// No direct access.
+if (!defined('XSS'))
+	die('Direct access not allowed.');
 
 class Comments
 {

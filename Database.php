@@ -7,7 +7,7 @@
  * @author		Juan "JayCreations" Hernandez
  * @license		MIT
  * @copyright		2011 Juan J. Hernandez
- * @link
+ * @link		https://github.com/JayCreations/XSS-Example
  */
 
 // No direct access.
